@@ -12,12 +12,14 @@
         <module name="order-service" />
         <module name="customer-service" />
         <module name="Gateway" />
+        <module name="billing-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Gateway" options="-parameters" />
+      <module name="billing-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
