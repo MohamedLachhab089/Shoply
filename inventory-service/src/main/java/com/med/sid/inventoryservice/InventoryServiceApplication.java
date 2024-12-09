@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient // make the service visible to other with name and metadata.
 public class InventoryServiceApplication {
 
     public static void main(String[] args) {
